@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "test": {
+      "factory": "./src/generators/test/generator",
+      "schema": "./src/generators/test/schema.json",
+      "description": "test generator"
+    }
+  }
+}
