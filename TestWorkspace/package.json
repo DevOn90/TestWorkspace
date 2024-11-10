@@ -30,6 +30,7 @@
     "@nx/eslint-plugin": "20.0.12",
     "@nx/jest": "20.0.12",
     "@nx/js": "20.0.12",
+    "@nx/plugin": "^20.0.12",
     "@nx/web": "20.0.12",
     "@nx/workspace": "20.0.12",
     "@schematics/angular": "~18.2.0",
