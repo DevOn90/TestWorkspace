@@ -13,7 +13,7 @@ export async function testGenerator(tree: Tree, options: TestGeneratorSchema) {
   
   
   
-  const scopeName = readJson(tree, path.basename('package.json')).name;
+  const scopeName = readJson(tree, 'package.json').name;
 
   const resolvedOptions = {
     ...options,
