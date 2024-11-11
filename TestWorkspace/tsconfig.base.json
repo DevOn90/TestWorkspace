@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@test-workspace/automation": ["automation/src/index.ts"],
+      "@org/tools": ["tools/src/index.ts"],
       "@test-workspace/my-test": ["libs/my-test/src/index.ts"]
     }
   },
