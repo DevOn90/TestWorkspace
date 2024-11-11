@@ -4,6 +4,11 @@
       "factory": "./src/generators/test/generator",
       "schema": "./src/generators/test/schema.json",
       "description": "test generator"
+    },
+    "org-lib": {
+      "factory": "./src/generators/org-lib/generator",
+      "schema": "./src/generators/org-lib/schema.json",
+      "description": "org-lib generator"
     }
   }
 }
