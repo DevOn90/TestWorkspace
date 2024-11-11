@@ -17,6 +17,12 @@
       "type": "string",
       "description": "",
       "x-prompt": "What is package about?"
+    },
+    "directory": {
+      "type": "string",
+      "description": "",
+      "x-prompt": "Which directory should the project be created in?",
+      "default": "packages"
     }
   },
   "required": ["name"]
