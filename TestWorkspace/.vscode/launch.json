@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Angular App",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/nx",
+        "args": ["serve", "testApp"],
+        "console": "integratedTerminal",
+        "skipFiles": ["<node_internals>/**"],
+        "outFiles": ["${workspaceFolder}/dist/apps/testApp/**/*.js"],
+        "preLaunchTask": "Log Workspace Folder"
+      },
+      {
+        "name": "Attach to Angular app",
+        "type": "chrome",
+        "request": "attach",
+        "url": "http://localhost:4200",
+        "webRoot": "${workspaceFolder}/apps/testApp/src",
+        "sourceMaps": true
+      },
+      {
+        "name": "Launch Generator @org/tools",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/nx",
+        "args": ["g", "@org/tools:org-lib", "--directory=whatever", "--name=test", "--dry-run"],
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder}",
+        "skipFiles": ["<node_internals>/**"],
+        "outFiles": ["${workspaceFolder}/dist/out-tsc/**"]
+      } 
+    ]
+}
