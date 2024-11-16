@@ -1,0 +1,2 @@
+// Added all you intended exports
+export * from './lib/<%= name %>/<%= name %>.component';

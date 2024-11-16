@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'lib-<%= name %>',  
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './<%= name %>.component.html', 
+  styleUrl: './<%= name %>.component.scss',
+})
+export class MyTestComponent {}
