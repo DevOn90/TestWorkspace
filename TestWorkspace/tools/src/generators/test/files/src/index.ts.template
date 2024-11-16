@@ -1,2 +1,0 @@
-// export your public components
-const variable = "<%= name %>";
